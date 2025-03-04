@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 20vw;
+    min-height: 200vh;
+    background-color: #e0f2f1;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #80cbc4;
+    border-top: 0.05em solid #00695c;
+    height: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.2vw;
+    box-shadow: 0 -0.2em 0.5em rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+header img {
+    inline-size: 4em;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+header img[src="img/winkelwagen.png"] {
+    height: 1.8em;
+    width: 1.8em;
+    margin-right: 1em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1.1vw;
+}
+
+nav ul li a {
+    color: #004d40;
+    font-weight: bold;
+    font-size: 0.93em;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+main img {
+    max-width: 100%;
+    position: relative;
+}
+
+main a[href="winkel.html"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52vw);
+    display: block;
+    text-align: center;
+    padding: 0.6em;
+    background-color: #4db6ac;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 1.5em;
+    box-shadow: 0.1em 0.1em 0.3em #171717;
+}
+
+body [data-page="home"] h1 {
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80vw);
+    color: #004d40;
+}
+
+body [data-page="anders"] h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -63vw);
+    padding: 0.5em;
+    background-color: #e76f29;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3em;
+    border: 0.2em solid #a9511d;
+    box-shadow: 0.2em 0.2em 0.6em #171717;
+}
+
+article {
+    max-width: 70%;
+    margin: 2em auto;
+    background-color: #f1f4f2;
+    border-radius: 0.5em;
+    box-shadow: 1em 1em 5em rgba(0, 0, 0, 0.1);
+    color: #004d40;
+    font-size: 4vw;
+    padding: 4vw;
+    text-align: center;
+}
+
+article a {
+    padding: 0.3em 1em;
+    background-color: #4db6ac;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 1.5em;
+    box-shadow: 0.1em 0.1em 0.3em #171717;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+article img {
+    height: 15em;
+}
+
+article iframe {
+    max-width: 100%;
+    border-radius: 0.5em;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 0.93em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+details {
+    background-color: #f1f4f2;
+    text-align: left;
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    color: #004d40;
+}
+
+summary {
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #004d40;
+}
